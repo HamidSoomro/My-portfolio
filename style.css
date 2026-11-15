@@ -6,7 +6,6 @@ body {
   line-height: 1.6;
 }
 
-/* Upar ka menu */
 header {
   background-color: #061326;
   padding: 20px;
@@ -31,7 +30,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Page ka asli content */
 main {
   width: 80%;
   margin: auto;
@@ -59,13 +57,11 @@ h3 {
   text-align: center;
 }
 
-/* Box: koi border nahi, rang page jaisa hi */
 .box {
   border: none;
   padding: 15px;
 }
 
-/* Meri photo (square) */
 .profile-pic {
   width: 250px;
   height: 250px;
@@ -75,7 +71,6 @@ h3 {
   margin: 20px auto;
 }
 
-/* Home page */
 .home {
   text-align: center;
 }
@@ -105,7 +100,6 @@ h3 {
   text-align: left;
 }
 
-/* Work page: box aur text barabar barabar */
 .project {
   display: flex;
   gap: 30px;
@@ -120,7 +114,6 @@ h3 {
   width: 50%;
 }
 
-/* Button */
 .button {
   background-color: #e6b94d;
   color: #061326;
@@ -134,7 +127,6 @@ h3 {
   background-color: #f3cf75;
 }
 
-/* Do columns (About aur Contact page) */
 .two-columns {
   display: flex;
   gap: 40px;
@@ -144,7 +136,6 @@ h3 {
   width: 50%;
 }
 
-/* Achievements ke cards */
 .card {
   border: none;
   padding: 15px;
@@ -162,7 +153,6 @@ h3 {
   padding: 3px 8px;
 }
 
-/* Contact form */
 input, textarea {
   width: 100%;
   padding: 8px;
@@ -173,7 +163,6 @@ input, textarea {
   border: none;
 }
 
-/* Neeche ka footer */
 footer {
   background-color: #061326;
   text-align: center;
@@ -181,7 +170,6 @@ footer {
   margin-top: 30px;
 }
 
-/* Chhoti screen (mobile/tablet) ke liye */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
