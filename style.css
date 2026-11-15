@@ -182,7 +182,24 @@ footer {
   .project .box, .project .info, .two-columns div, .info-box {
     width: 100%;
   }
-
+.project {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.project-text {
+    flex: 1;
+}
+.project-img {
+    width: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+}
   .big-name {
     font-size: 30px;
   }
